@@ -1,5 +1,92 @@
 {
     "name": "Sai Krishna Teja",
     "abbv": "SKT",
-    "description": "Full Stack Developer"
+    "description": "Full Stack Developer",
+    "experience": [
+        {
+            "id": 1,
+            "position": "Senior Software Engineer",
+            "company": "Wells Fargo",
+            "companyLink": "https://www.wellsfargo.com/",
+            "time": "2021-Present",
+            "address": "San Leandro, CA",
+            "work": [
+                "Understood the requirements from business & identified the bounded contexts and developed various microservices, micro frontends for Digital.",
+                "Co-ordinated and lead the teams into building scalable, efficient & resilient microservices in java and frontend in React using Typescript.",
+                "All the microservices are developed in Java 11 and Migrated to Java 17. Following is the tech stack used for the projects: Spring boot, Spring Cloud, Swagger, Mongo DB, Kafka, Log4J, Circuit Breaker.",
+                "Worked with various cloud offerings available in the Wells Fargo like Tanzu (Cloud Foundry with Kubernetes) and Azure to Host the microservices and front-end. ",
+                "Worked with Confluent Kafka to consume and produce various transactional and analytical data which is used for Prediction Analysis.",
+                "Trained teams on cloud (Azure Fundamentals & AWS) for development & also APIGEE for API Management and gateway.",
+                "TDD & BDD implementation for both Back-End (Cucumber & JUNIT) and Front-End (Jest & Cypress)",
+                "Created Dashboards in Splunk and Grafana for Monitoring and Alerting the Microservices.",
+                "Created Reverse Proxy and Enabled API Management for all Microservices.",
+                "Authored & Optimized PLSQL stored procedures and indexed tables in Oracle for better performance"
+            ]
+        },
+        {
+            "id": 2,
+            "position": "Senior Software Engineer",
+            "company": "JPMorgan & Chase",
+            "companyLink": "https://www.jpmorgan.com/",
+            "time": "2017-2021",
+            "address": "Hyderabad, India",
+            "work": [
+                "Converted a huge monolith application into several Microservices and Micro-Frontends to make it cloud ready and integrated them with many customers (Chase Digital, Chase Banking)",
+                "Worked with product managers to re-architect a multi-page web app into a single page web-app using react in TypeScript and redux and reduced the initial page load time and increased the performance along with  design. ",
+                "Consumed Kafka topics in batches to refresh the Customer Accounts for delinquency.",
+                "Decoupled a huge monolith application with Domain driven design and extracted microservices and made it efficient and manageable.",
+                "Written many PLSQL queries & stored Procedures and optimized them for performance ",
+                "Built RESTful APIs that served data to the JavaScript front-end based on dynamically chosen user inputs that handled over 80,000 concurrent users",
+                "Developed monitoring solutions for data path programming in private and public cloud environments.",
+                "Built applications using REST APIs to consume services that mirror traffic from AWS environment using agents deployed on EC2 instances. "
+            ]
+        },
+        {
+            "id": 3,
+            "position": "Software Engineer",
+            "company": "Deloitte",
+            "companyLink": "https://www.deloitte.com/",
+            "time": "2016-2017",
+            "address": "Hyderabad, India",
+            "work": [
+                "Served as full stack developer and built an inhouse Performance management system with Analytical Data for Partners.",
+                "Hosted the Restful APIs on Azure cloud.",
+                "Designed frontend architecture and CSS framework standard for the application. ",
+                "Built a Security tool to ensure proper administration & risk-free work for both operations and IT teams.",
+                "Worked on Kubernetes deployment and management for containerized applications. Skilled in configuring and optimizing clusters for performance and scalability. Proficient in troubleshooting and ensuring high availability in Kubernetes environments"
+            ]
+        },
+        {
+            "id": 4,
+            "position": "Programmer Analyst",
+            "company": "Cognizant",
+            "companyLink": "https://www.cognizant.com/",
+            "time": "2013-2016",
+            "address": "Hyderabad, India",
+            "work": [
+                "Worked on development of One transport which is one stop cab booking, whether it may be Ad hoc Cab or late-night cab. Employees can book, cancel, or reschedule. Managers can approve or reject requests. Billing is automatically taken from Project account.",
+                "Built an in-house Recruitment management System which facilitates from candidates interview to new hire onboarding activities.",
+                "Worked for Navigator, which is a unified resource for self-service-based query resolution.",
+                "Worked on creating Azure pipelines for various projects for continuous integration and continuous deployment"
+            ]
+        }
+    ],
+    "education": [
+        {
+            "id": 1,
+            "degree": "Masters in Data Analytics",
+            "university": "Birla Institute of Technology & Sciences",
+            "universityLink": "https://bitss.ac.in/",
+            "time": "2019 - 2020",
+            "address": "Pilani, India"
+        },
+        {
+            "id": 2,
+            "degree": "Bachelors in Technology (Electrical & Electronic Engineering)",
+            "university": "Jawaharlal Nehru Technological University",
+            "universityLink": "https://jntuh.ac.in/",
+            "time": "2010-2014",
+            "address": "Hyderabad, India"
+        }
+    ]
 }

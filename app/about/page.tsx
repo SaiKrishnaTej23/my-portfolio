@@ -15,6 +15,7 @@ import mongo from '../../public/images/projects/mongo.jpg';
 import apigee from '../../public/images/projects/apigee.png';
 import tailwind from '../../public/images/projects/tailwind.png';
 import Image from 'next/image';
+import Experience from './Experience';
 
 const About = () => {
   return (
@@ -26,7 +27,7 @@ const About = () => {
       <main className='w-full flex flex-col items-center justify-center text-center px-10 py-14'>
         <AnimatedText text="Passion Fuels Purpose!" className="text-6xl" />
 
-        <div className='w-full p-8 flex flex-row items-start justify-between'>
+        <div className='w-full m-8 flex flex-row items-start justify-between '>
           <div className='flex flex-col justify-between w-1/2 text-left font-medium p-8'>
             <h2 className='w-full text-lg font-semibold text-left uppercase'>Biography</h2>
             <p className='mt-4'>
@@ -77,6 +78,7 @@ const About = () => {
           <Image src={apigee} alt="teja" className="w-auto h-auto" />
           <Image src={tailwind} alt="teja" className="w-auto h-auto" />
         </div>
+        <Experience />
 
       </main >
 

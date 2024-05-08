@@ -30,8 +30,8 @@ const NavBar = () => {
                 <CustomLink href='/contact' className='ml-4' title='Contact'></CustomLink>
             </nav>
             <nav className='flex items-center justify-center flex-wrap'>
-                <motion.a whileHover={{ y: -2 }} href='/' target='_blank' className='w-6 mx-3'><TwitterIcon /></motion.a>
-                <motion.a whileHover={{ y: -2 }} href='/' target='_blank' className='w-6 mx-3'><GithubIcon /></motion.a>
+                <motion.a whileHover={{ y: -2 }} href='https://twitter.com/saikrishnatej_' target='_blank' className='w-6 mx-3'><TwitterIcon /></motion.a>
+                <motion.a whileHover={{ y: -2 }} href='https://github.com/SaiKrishnaTej23' target='_blank' className='w-6 mx-3'><GithubIcon /></motion.a>
                 <motion.a whileHover={{ y: -2 }} href='/' target='_blank' className='w-6 mx-3'><LinkedInIcon /></motion.a>
                 <motion.a whileHover={{ y: -2 }} href='/' target='_blank' className='w-6 mx-3'><PinterestIcon /></motion.a>
                 <motion.a whileHover={{ y: -2 }} href='/' target='_blank' className='w-6 mx-3'><DribbbleIcon /></motion.a>
