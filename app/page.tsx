@@ -16,7 +16,7 @@ export default function Home() {
           Explore my latest projects and articles, showcasing my expertise in React.js and web development.</p>
 
         <div className="flex items-center self-start mt-2">
-          <Link href="/SKTReact.pdf" target="_blank" download={true}
+          <Link href="/SKTReact1.pdf" target="_blank" download={true}
             className="flex items-center bg-black text-white 
             font-semibold border-solid border-2 border-transparent border-black rounded-full px-6 py-2
             hover:bg-white hover:text-black mr-2 hover:border-black">
