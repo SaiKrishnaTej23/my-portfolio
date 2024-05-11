@@ -25,11 +25,10 @@ const About = () => {
         <title>About</title>
         <meta name="description" content="about" />
       </Head>
-      <main className='w-full flex flex-col items-center justify-center text-center px-10 py-14'>
-        <AnimatedText text="Passion Fuels Purpose!" className="text-6xl" />
-
-        <div className='w-full m-8 flex flex-row items-start justify-between '>
-          <div className='flex flex-col justify-between w-1/2 text-left font-medium p-8'>
+      <main className='w-full flex flex-col items-center justify-center text-center px-4 py-14 md:px-28'>
+        <AnimatedText text="Passion Fuels Purpose!" className="text-5xl md:text-6xl" />
+        <div className='w-full my-8 flex flex-col-reverse items-center justify-between gap-10 md:flex-row'>
+          <div className='flex flex-col items-center justify-between w-full text-left font-medium md:w-1/2'>
             <h2 className='w-full text-lg font-semibold text-left uppercase'>Biography</h2>
             <p className='mt-4'>
               Technologically-sophisticated professional with expertise designing, coding, and developing software applications, while
@@ -56,7 +55,7 @@ const About = () => {
             </p>
 
           </div>
-          <div className='flex w-1/2 h-full p-8 items-start'>
+          <div className='flex w-full h-full items-start md:w-1/2'>
             <div className='rounded-2xl border-2 border-solid border-black w-full p-8'>
               <Image src={profilebw} alt="teja" className="w-full h-auto" />
             </div>

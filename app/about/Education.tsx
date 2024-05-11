@@ -2,19 +2,18 @@ import React from 'react'
 import data from '../data.json';
 const Education = () => {
   return (
-    <div className='my-32'>
-        <h2 className='font-semibold text-8xl w-full text-center mb-32'>
+    <div className='w-full'>
+        <h2 className='font-semibold text-4xl w-full text-center my-10 md:text-8xl'>
             Education
         </h2>
         {
             data.education.map((edu: any) => {
                 return (
-                    <div className='w-full m-8 flex flex-row items-start justify-between '>
-                        <div className='flex flex-col justify-between w-1/2 text-left font-medium p-8'>
+                    <div className='w-full flex flex-row items-start justify-between' key={edu.degree}>
+                        <div className='flex flex-col justify-between w-full text-left font-medium py-4'>
                             <h2 className='w-full text-lg font-semibold text-left uppercase'>{edu.degree}</h2>
-                            <p className='mt-4'>{edu.university}</p>
-                            <p className='mt-4'>{edu.time}</p>
-                            <p className='mt-4'>{edu.address}</p>
+                            <a className='text-purple-500 font-semibold' href={edu.universityLink} target='_blank'>@{edu.university}</a>
+                            <span className='capitalize font-light text-sm'>{edu.time} | {edu.address}</span>
                         </div>
                     </div>
                 )
