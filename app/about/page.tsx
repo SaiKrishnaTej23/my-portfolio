@@ -16,6 +16,7 @@ import apigee from '../../public/images/projects/apigee.png';
 import tailwind from '../../public/images/projects/tailwind.png';
 import Image from 'next/image';
 import Experience from './Experience';
+import Education from './Education';
 
 const About = () => {
   return (
@@ -79,7 +80,7 @@ const About = () => {
           <Image src={tailwind} alt="teja" className="w-auto h-auto" />
         </div>
         <Experience />
-
+        <Education />
       </main >
 
     </>
