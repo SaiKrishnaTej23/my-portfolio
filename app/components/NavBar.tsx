@@ -4,8 +4,9 @@ import Logo from './Logo';
 import { motion } from 'framer-motion';
 import { DribbbleIcon, GithubIcon, LinkedInIcon, PinterestIcon, TwitterIcon } from './Icons';
 import { usePathname } from 'next/navigation';
+import Hamburger from './Hamburger';
 
-const CustomLink = ({ href, title, className = '' }: any) => {
+export const CustomLink = ({ href, title, className = '' }: any) => {
     const path = usePathname();
     const isActive = path === href;
     return (
@@ -22,14 +23,15 @@ const CustomLink = ({ href, title, className = '' }: any) => {
 
 const NavBar = () => {
     return (
-        <header className='w-full px-28 py-6 font-medium flex items-center justify-between'>
-            <nav>
+        <header className='w-full px-8 py-6 font-medium flex items-center justify-between md:px-28'>
+            <Hamburger />
+            <nav className='hidden md:flex'>
                 <CustomLink href='/' className='mr-4' title='Home'> </CustomLink>
                 <CustomLink href='/about' className='mx-4' title='About'></CustomLink>
                 <CustomLink href='/projects' className='mx-4' title='Projects'></CustomLink>
                 <CustomLink href='/contact' className='ml-4' title='Contact'></CustomLink>
             </nav>
-            <nav className='flex items-center justify-center flex-wrap'>
+            <nav className='hidden items-center justify-center flex-wrap md:flex'>
                 <motion.a whileHover={{ y: -2 }} href='https://twitter.com/saikrishnatej_' target='_blank' className='w-6 mx-3'><TwitterIcon /></motion.a>
                 <motion.a whileHover={{ y: -2 }} href='https://github.com/SaiKrishnaTej23' target='_blank' className='w-6 mx-3'><GithubIcon /></motion.a>
                 <motion.a whileHover={{ y: -2 }} href='/' target='_blank' className='w-6 mx-3'><LinkedInIcon /></motion.a>

@@ -6,12 +6,12 @@ import { LinkArrow } from "./components/Icons";
 
 export default function Home() {
   return (
-    <div className="flex min-h-screen w-full items-center justify-between p-24">
-      <div className="w-1/2 px-20">
+    <div className="flex flex-col min-h-screen w-full items-center justify-between p-4 md:p-24 md:flex-row">
+      <div className="w-full py-10 md:px-20 md:w-1/2">
         <Image src={profile} alt="teja" className="w-full h-auto" />
       </div>
-      <div className="w-1/2 px-4 flex flex-col">
-        <AnimatedText text="Turning Vision Into Reality With Code And Design." className="text-6xl text-left" />
+      <div className="w-full px-4 flex flex-col md:w-1/2">
+        <AnimatedText text="Turning Vision Into Reality With Code And Design." className="text-5xl text-left md:text-6xl" />
         <p className="font-medium mt-4">As a skilled full-stack developer, I am dedicated to turning ideas into innovative web applications.
           Explore my latest projects and articles, showcasing my expertise in React.js and web development.</p>
 
