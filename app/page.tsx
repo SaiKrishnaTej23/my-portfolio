@@ -3,10 +3,12 @@ import profile from '../public/images/profile/profile.png'
 import AnimatedText from "./components/AnimatedText";
 import Link from "next/link";
 import { LinkArrow } from "./components/Icons";
+import TransistionEffect from "./components/TransistionEffect";
 
 export default function Home() {
   return (
     <div className="flex flex-col min-h-screen w-full items-center justify-between p-4 md:p-24 md:flex-row">
+      <TransistionEffect />
       <div className="w-full py-10 md:px-20 md:w-1/2">
         <Image src={profile} alt="teja" className="w-full h-auto" />
       </div>

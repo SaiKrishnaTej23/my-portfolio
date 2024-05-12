@@ -17,6 +17,7 @@ import tailwind from '../../public/images/projects/tailwind.png';
 import Image from 'next/image';
 import Experience from './Experience';
 import Education from './Education';
+import TransistionEffect from '../components/TransistionEffect';
 
 const About = () => {
   return (
@@ -25,6 +26,7 @@ const About = () => {
         <title>About</title>
         <meta name="description" content="about" />
       </Head>
+      <TransistionEffect />
       <main className='w-full flex flex-col items-center justify-center text-center px-4 py-14 md:px-28'>
         <AnimatedText text="Passion Fuels Purpose!" className="text-5xl md:text-6xl" />
         <div className='w-full my-8 flex flex-col-reverse items-center justify-between gap-10 md:flex-row'>
