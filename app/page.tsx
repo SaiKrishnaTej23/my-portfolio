@@ -1,9 +1,11 @@
+"use client";
 import Image from "next/image";
 import profile from '../public/images/profile/profile.png'
 import AnimatedText from "./components/AnimatedText";
 import Link from "next/link";
 import { LinkArrow } from "./components/Icons";
 import TransistionEffect from "./components/TransistionEffect";
+import { TypeAnimation } from "react-type-animation";
 
 export default function Home() {
   return (
@@ -13,7 +15,22 @@ export default function Home() {
         <Image src={profile} alt="teja" className="w-full h-auto" />
       </div>
       <div className="w-full px-4 flex flex-col md:w-1/2">
-        <AnimatedText text="Turning Vision Into Reality With Code And Design." className="text-5xl text-left md:text-6xl" />
+        <AnimatedText text="Hi, I'm" className="text-5xl text-left md:text-6xl" />
+        <TypeAnimation
+      sequence={[
+        'Teja Pothapragada',
+        1000,
+        'Full stack developer',
+        1000,
+        'Team Leader',
+        1000,
+      ]}
+      wrapper="span"
+      speed={50}
+      className="text-5xl text-left md:text-6xl"
+      style={{ display: 'inline-block' }}
+      repeat={Infinity}
+    />
         <p className="font-medium mt-4">As a skilled full-stack developer, I am dedicated to turning ideas into innovative web applications.
           Explore my latest projects and articles, showcasing my expertise in React.js and web development.</p>
 
