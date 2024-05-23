@@ -2,7 +2,7 @@
 import React from 'react';
 import Logo from './Logo';
 import { motion } from 'framer-motion';
-import { DribbbleIcon, GithubIcon, LinkedInIcon, PinterestIcon, TwitterIcon } from './Icons';
+import { DribbbleIcon, GithubIcon, HackerrankIcon, LinkedInIcon, PinterestIcon, TwitterIcon } from './Icons';
 import { usePathname } from 'next/navigation';
 import Hamburger from './Hamburger';
 
@@ -34,9 +34,8 @@ const NavBar = () => {
             <nav className='hidden items-center justify-center flex-wrap md:flex'>
                 <motion.a whileHover={{ y: -2 }} href='https://twitter.com/saikrishnatej_' target='_blank' className='w-6 mx-3'><TwitterIcon /></motion.a>
                 <motion.a whileHover={{ y: -2 }} href='https://github.com/SaiKrishnaTej23' target='_blank' className='w-6 mx-3'><GithubIcon /></motion.a>
-                <motion.a whileHover={{ y: -2 }} href='/' target='_blank' className='w-6 mx-3'><LinkedInIcon /></motion.a>
-                <motion.a whileHover={{ y: -2 }} href='/' target='_blank' className='w-6 mx-3'><PinterestIcon /></motion.a>
-                <motion.a whileHover={{ y: -2 }} href='/' target='_blank' className='w-6 mx-3'><DribbbleIcon /></motion.a>
+                <motion.a whileHover={{ y: -2 }} href='https://www.linkedin.com/in/sai-krishna-teja/' target='_blank' className='w-6 mx-3'><LinkedInIcon /></motion.a>
+                <motion.a whileHover={{ y: -2 }} href='https://dribbble.com/SaiKrishnaTej' target='_blank' className='w-6 mx-3'><DribbbleIcon /></motion.a>
             </nav>
             <div className='absolute left-[50%] top-2 translate-x-[-50%]'>
                 <Logo />    
