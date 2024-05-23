@@ -19,20 +19,20 @@ import tailwind from '../../public/images/projects/tailwind.png';
 const Skills = () => {
   return (
     <div>
-        <AnimatedText text="My Skills" className="text-3xl w-full" />
+        {/* <AnimatedText text="My Skills" className="text-3xl w-full" /> */}
         <div className='w-full p-8 flex flex-row flex-wrap items-center justify-around gap-8'>
-          <Image src={java} alt='java' className="w-[150px] h-[150px] rounded-full shadow-2xl object-contain" />
-          <Image src={spring} alt="teja" className="w-[150px] h-[150px] rounded-full shadow-2xl object-contain" />
-          <Image src={boot} alt="teja" className="w-[150px] h-[150px] rounded-full shadow-2xl object-contain" />
-          <Image src={reactjpg} alt="teja" className="w-[150px] h-[150px] rounded-full shadow-2xl object-contain" />
-          <Image src={angular} alt="teja" className="w-[150px] h-[150px] rounded-full shadow-2xl object-contain" />
-          <Image src={node} alt="teja" className="w-[150px] h-[150px] rounded-full shadow-2xl object-contain" />
-          <Image src={kafka} alt="teja" className="w-[150px] h-[150px] rounded-full shadow-2xl object-contain" />
-          <Image src={aws} alt="teja" className="w-[150px] h-[150px] rounded-full shadow-2xl object-contain" />
-          <Image src={tanzu} alt="teja" className="w-[150px] h-[150px] rounded-full shadow-2xl object-contain" />
-          <Image src={mongo} alt="teja" className="w-[150px] h-[150px] rounded-full shadow-2xl object-contain" />
-          <Image src={apigee} alt="teja" className="w-[150px] h-[150px] rounded-full shadow-2xl object-contain" />
-          <Image src={tailwind} alt="teja" className="w-[150px] h-[150px] rounded-full shadow-2xl object-contain" />
+          <Image src={java} alt='java' className="w-[60px] h-[60px] rounded-full shadow-2xl object-contain" />
+          <Image src={spring} alt="teja" className="w-[60px] h-[60px] rounded-full shadow-2xl object-contain" />
+          <Image src={boot} alt="teja" className="w-[60px] h-[60px] rounded-full shadow-2xl object-contain" />
+          <Image src={reactjpg} alt="teja" className="w-[60px] h-[60px] rounded-full shadow-2xl object-contain" />
+          <Image src={angular} alt="teja" className="w-[60px] h-[60px] rounded-full shadow-2xl object-contain" />
+          <Image src={node} alt="teja" className="w-[60px] h-[60px] rounded-full shadow-2xl object-contain" />
+          <Image src={kafka} alt="teja" className="w-[60px] h-[60px] rounded-full shadow-2xl object-contain" />
+          <Image src={aws} alt="teja" className="w-[60px] h-[60px] rounded-full shadow-2xl object-contain" />
+          <Image src={tanzu} alt="teja" className="w-[60px] h-[60px] rounded-full shadow-2xl object-contain" />
+          <Image src={mongo} alt="teja" className="w-[60px] h-[60px] rounded-full shadow-2xl object-contain" />
+          <Image src={apigee} alt="teja" className="w-[60px] h-[60px] rounded-full shadow-2xl object-contain" />
+          <Image src={tailwind} alt="teja" className="w-[60px] h-[60px] rounded-full shadow-2xl object-contain" />
         </div>
     </div>
   )

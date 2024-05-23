@@ -28,7 +28,7 @@ const NavBar = () => {
             <nav className='hidden md:flex'>
                 <CustomLink href='/' className='mr-4' title='Home'> </CustomLink>
                 <CustomLink href='/about' className='mx-4' title='About'></CustomLink>
-                <CustomLink href='/projects' className='mx-4' title='Projects'></CustomLink>
+                <CustomLink href='/projects' className='mx-4' title='Experience'></CustomLink>
                 <CustomLink href='/contact' className='ml-4' title='Contact'></CustomLink>
             </nav>
             <nav className='hidden items-center justify-center flex-wrap md:flex'>

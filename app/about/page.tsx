@@ -3,8 +3,6 @@ import React from 'react'
 import AnimatedText from '../components/AnimatedText';
 import profilebw from '../../public/images/profile/Profilebw.jpg';
 import Image from 'next/image';
-import Experience from './Experience';
-import Education from './Education';
 import TransistionEffect from '../components/TransistionEffect';
 import Skills from './Skills';
 
@@ -18,6 +16,7 @@ const About = () => {
       <TransistionEffect />
       <main className='w-full flex flex-col items-center justify-center text-center px-4 py-14 md:px-28'>
         <AnimatedText text="Passion Fuels Purpose!" className="text-5xl md:text-6xl" />
+        <Skills />
         <div className='w-full my-8 flex flex-col-reverse items-center justify-between gap-10 md:flex-row'>
           <div className='flex flex-col items-center justify-between w-full text-left font-medium md:w-1/2'>
             <h2 className='w-full text-lg font-semibold text-left uppercase'>Biography</h2>
@@ -52,9 +51,6 @@ const About = () => {
             </div>
           </div>
         </div>
-        <Skills />
-        <Experience />
-        <Education />
       </main >
 
     </>
